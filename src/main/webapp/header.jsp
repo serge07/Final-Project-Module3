@@ -1,16 +1,20 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: serge
-  Date: 11/12/2024
-  Time: 7:11 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<div class="header">
+    <img src="<c:url value='/images/SpaceQuest_logo.png' />" alt="Game Logo" class="header-logo">
+    <h1>Text Quest</h1>
+</div>
 
-</body>
-</html>
+<style>
+    .header {
+        text-align: center; /* Center align the header content */
+        padding: 20px; /* Add padding */
+        background-color: #4A90E2; /* Header background color */
+        color: white; /* Text color */
+    }
+
+    .header-logo {
+        max-width: 150px; /* Limit logo size */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>

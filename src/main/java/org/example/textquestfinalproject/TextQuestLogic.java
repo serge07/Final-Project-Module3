@@ -19,7 +19,7 @@ public class TextQuestLogic {
 
         answers.put(0,"Accept");
         answers.put(1,"Yes");
-        answers.put(2,"I am Elon Musk");
+        answers.put(2,"Elon Musk");
     }
 
     public String getQuestion(int step){
@@ -39,7 +39,7 @@ public class TextQuestLogic {
     }
 
 
-    public int getCurrentSteo(){
+    public int getCurrentStep(){
         return step;
     }
 
